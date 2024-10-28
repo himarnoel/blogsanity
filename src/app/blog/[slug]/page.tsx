@@ -53,7 +53,7 @@ export default async function BlogArticle({
         />
       </div>
 
-      <div className="mt-16 prose max-w-none  w-full mb-10  ">
+      <div className="mt-16 prose max-w-none  text-justify px-4 lg:p-0 prose-headings:mb-0 w-full mb-10  ">
         <PortableText value={data.body} />
       </div>
     </div>
